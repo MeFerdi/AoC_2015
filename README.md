@@ -1,1 +1,1 @@
-## Advent of Code Challenge
+## Code Challenge
