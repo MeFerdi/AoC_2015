@@ -64,10 +64,10 @@ func CalculateWraper(str []string) int {
 	}
 	return totalWrappingPaper
 }
-func main() {
-	presentDimensions := loadText("input.txt")
+// func main() {
+// 	presentDimensions := loadText("input.txt")
 
-	totalWrappingPaper := CalculateWraper(presentDimensions)
+// 	totalWrappingPaper := CalculateWraper(presentDimensions)
 
-	fmt.Println(totalWrappingPaper)
-}
+// 	fmt.Println(totalWrappingPaper)
+// }
