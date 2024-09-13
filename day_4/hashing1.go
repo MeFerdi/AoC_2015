@@ -11,7 +11,6 @@ func mineCoin(secretKey string) int {
 	number := 1
 
 	for {
-		// Combine the secret key with the current number
 		data := secretKey + strconv.Itoa(number)
 
 		// Compute the MD5 hash
@@ -23,7 +22,6 @@ func mineCoin(secretKey string) int {
 			return number
 		}
 
-		// Increment the number for the next iteration
 		number++
 	}
 }
